@@ -59,3 +59,7 @@ stderr_callback=debug
 Improve cloudflared usage.
 
 Add additional branch with basic Go applicaiton. 
+
+Create play to retrieve existing remote Ghost config and install it?
+
+Additonal branches with container configs?
