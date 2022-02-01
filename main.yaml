@@ -5,15 +5,16 @@
 
   vars:
 
+    ansible_python_interpreter: '{{ ansible_playbook_python }}'
     blog_image: ghost
     blog_image_tag: 4-alpine
-    blog_dns: local.blog.com
+    blog_dns: local.chrisdlg.com
     mount_path: /var/lib/ghost/content
     cloudflared_image: cloudflare/cloudflared
     cloudflared_tag: 2022.1.2
     tunnel_name: local_blog
     replicas: 2
-    path_to_cloudflared: /Users/user/.cloudflared # A / is added to the end of this when setting the variable in the task.
+    path_to_cloudflared: /Users/chris/.cloudflared # A / is added to the end of this when setting the variable in the task.
 
   pre_tasks:
 
