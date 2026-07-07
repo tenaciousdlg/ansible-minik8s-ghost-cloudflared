@@ -1,3 +1,5 @@
+> **Status: Dormant.** This repo is not actively maintained and is kept for historical/reference purposes only. Content may be out of date.
+
 # ansible-minik8s-ghost-cloudflared
 A repo to apply a k8s cluster of Ghost and cloudflared in a minikube environment 
 
